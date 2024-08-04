@@ -103,6 +103,7 @@ Redshift (Optional): A data warehouse service that can be used for more complex 
 
 ## Citations
 [Youtube Link](https://youtu.be/yZKJFKu49Dk?si=GX6IDWYsOTjpC7DI)
+[Github Link](https://github.com/darshilparmar/dataengineering-youtube-analysis-project)
 	
 
 
