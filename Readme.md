@@ -66,11 +66,11 @@ AWS Athena is an interactive query service that allows direct querying of data s
 
 
 ## Project Architecture and Step-by-Step Explanation of the Data Flow
-![Data Architecture](file:architecture.jpeg)
+![Data Architecture](architecture.jpeg)
 
 1. Data Ingestion: 
 The project starts with data ingestion, where data is downloaded from kaggle and uploaded as a bulk to S3-bucket. ( Using cmd- line interface ) 
-	[s3-cli-commands.sh](file:s3_cli_commands.sh)
+	[s3-cli-commands.sh](s3_cli_commands.sh)
 
 2. Data Lake Setup: 
 Once the data is ingested, it is stored in a data lake within Amazon S3. The data lake consists of three main areas:
@@ -99,7 +99,7 @@ Redshift (Optional): A data warehouse service that can be used for more complex 
 8. Target Systems for Analytics : The processed and analyzed data can be visualized and further analyzed using various analytics tools:
 
 	- Amazon QuickSight: Used to create interactive dashboards and reports, providing visual insights.
-	- ![Data Architecture](file:Youtube_Analysis_Dashboard.png)
+	- ![Data Architecture](Youtube_Analysis_Dashboard.png)
 
 ## Citations
 [Youtube Link](https://youtu.be/yZKJFKu49Dk?si=GX6IDWYsOTjpC7DI)
