@@ -50,7 +50,7 @@ The Kaggle dataset includes CSV files with statistics on daily trending YouTube 
 Amazon S3 (Simple Storage Service) is an object storage service that provides scalable, durable, and secure storage. In this project, Amazon S3 is used as the central repository to store raw, cleaned, and processed data throughout the analysis pipeline.
 
 ### 2. AWS IAM
-AWS Identity and Access Management (IAM) allows you to manage access to AWS resources securely. In this project, IAM is used to create a specific role that governs access permissions, ensuring secure operations and management of the AWS services utilized.
+AWS Identity and Access Management (IAM) allows you to manage access to AWS resources securely. In this project, IAM is used to create IAM user and necessary roles that governs access permissions, ensuring secure operations and management of the AWS services utilized.
 
 ### 3. Amazon QuickSight
 Amazon QuickSight is a scalable, serverless business intelligence (BI) service for creating interactive dashboards and reports. In this project, QuickSight is used to develop dashboards that provide visual insights and facilitate data-driven decision-making.
